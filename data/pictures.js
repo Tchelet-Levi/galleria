@@ -8,6 +8,11 @@ class Picture {
   }
 
   // Why make a getTitle() function when I can just call Picture.title?
+  // But I'll still add it to the class, however..
+  // * this is never used. I am using picture.title instead.
+  getTitle() {
+    return this.title;
+  }
 }
 
 export let pictureArray = [
